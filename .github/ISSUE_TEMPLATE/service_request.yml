@@ -37,7 +37,7 @@ body:
     id: intent
     attributes:
       label: Deliverables/Assets purpose, intended use
-      description: Describe where and how do you plan to use deliverables/assets to help us understand
+      description: Describe where and how do you plan to use deliverables/assets to help us understand your request better
       placeholder: ex. Embed video in GPP via Youtube iframe
     validations:
       required: false
@@ -45,7 +45,7 @@ body:
     id: deadline
     attributes:
       label: Deadline
-      description: If you need assets delivered untill certain date, what would deadline? (If deadline is in very few days, we'll contact you first to clarify if project is feasible.)
+      description: If you need assets delivered untill certain date, what would be deadline? (If deadline is in very few days, we'll contact you first to clarify if project is feasible)
     validations:
       required: false
   - type: checkboxes
