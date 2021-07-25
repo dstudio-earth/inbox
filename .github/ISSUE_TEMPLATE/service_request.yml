@@ -1,0 +1,58 @@
+name: Production Service Request
+description: A production service request for Copywriting, Film, Animation, Event, etc.
+title: "[service-request]: "
+labels: [service-request]
+assignees:
+  - pavelsevcik
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Production Service Request! We'll reply to your request as soon as we'll process it.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com, DiscordID#007
+    validations:
+      required: false
+  - type: input
+    id: organization
+    attributes:
+      label: Request on behalf of organization
+      description: What is the name of organization/circle you're submitting request on behalf of?
+      placeholder: ex. SEEDS, Hypha/GPP
+    validations:
+      required: false
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables/Assets
+      description: Describe deliverables/assets you're requesting to produce, list all known requirements like resolution/format, list links to examples, specifications and anything what's required to produce them
+      placeholder: ex. Copywriting, Film, Animation, Event
+    validations:
+      required: true
+  - type: textarea
+    id: intent
+    attributes:
+      label: Deliverables/Assets purpose, intended use
+      description: Describe where and how do you plan to use deliverables/assets to help us understand
+      placeholder: ex. Embed video in GPP via Youtube iframe
+    validations:
+      required: false
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: If you need assets delivered untill certain date, what would deadline? (If deadline is in very few days, we'll contact you first to clarify if project is feasible.)
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms of Service
+      description: By submitting this issue, you agree with our [Terms of Service](https://dstudio.earth/legal/)
+      options:
+        - label: I agree to follow this dSTUDIO's Terms of Service
+          required: true
