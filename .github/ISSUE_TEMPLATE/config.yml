@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: dSTUDIO Community Support
+    url: https://github.com/dstudio-earth/community/discussions
+    about: Please ask and answer questions here.
+  # - name: dSTUDIO Contacts
+  #   url: https://dstudio.earth/contacts/
+  #   about: Please report security vulnerabilities here.
